@@ -1,11 +1,13 @@
 {
-  "name": "@reason-react-native/__template__",
+  "name": "bs-react-native-fast-image",
   "version": "0.0.0",
   "publishConfig": {
     "access": "public"
   },
-  "peerDependencies": {},
-  "repository": "https://github.com/reason-react-native/__template__.git",
+  "peerDependencies": {
+    "react-native-fast-image": "~8.3.2"
+  },
+  "repository": "https://github.com/justomat/bs-react-native-fast-image.git",
   "license": "MIT",
   "keywords": [
     "reason",
@@ -39,7 +41,9 @@
     "husky": "^4.0.0",
     "lint-staged": "^10.0.0",
     "npmpub": "^5.0.0",
-    "prettier": "^2.0.0"
+    "prettier": "^2.0.0",
+    "reason-react": "^0.9.1",
+    "reason-react-native": "^0.62.3"
   },
   "prettier": {
     "trailingComma": "all",

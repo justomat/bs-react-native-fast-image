@@ -1,57 +1,28 @@
-## How to use this template
-
-- ⚠️ **Don't fork this repository.** Use the "Use this template" green GitHub
-  button.
-- Put your bindings in `src/ReactNativeSomething` & rename accordingly or use
-  `bsconfig.json` `"namespace"` field (more on this below),
-- Update all occurences of
-
-  - `@reason-react-native/__template__`
-  - `https://github.com/reason-react-native/__template__`
-  - `__template__`
-  - `@react-native-community/something`
-  - `https://github.com/react-native-community/something`
-  - `ReactNativeSomething`. If you have more than a file exposed, you should
-    consider using BuckleScript custom namespace by adjusting `bsconfig.json`
-    and adding a `"namespace": "react-native-something"` (note that it will be
-    converted to `ReactNativeSomething`)
-
-- Add your `@react-native-community/something` (adjusted) in `peerDependencies`
-  & `devDependencies` section
-- Adjust the changelog (and/or clean it)
-- Remove this part ⬆ & keep everything below ⬇
-
----
-
-# `@reason-react-native/__template__`
-
-[![Build Status](https://github.com/reason-react-native/__template__/workflows/Build/badge.svg)](https://github.com/reason-react-native/__template__/actions)
-[![Version](https://img.shields.io/npm/v/@reason-react-native/__template__.svg)](https://www.npmjs.com/@reason-react-native/__template__)
-[![Chat](https://img.shields.io/discord/235176658175262720.svg?logo=discord&colorb=blue)](https://reason-react-native.github.io/discord/)
+# `bs-react-native-fast-image`
 
 [ReasonML](https://reasonml.github.io) /
 [BuckleScript](https://bucklescript.github.io) bindings for
-[`@react-native-community/something`](https://github.com/react-native-community/something).
+[`react-native-fast-image`](https://github.com/DylanVann/react-native-fast-image).
 
-Exposed as `ReactNativeSomething` module.
+Exposed as `ReactNativeFastImage` module.
 
-`@reason-react-native/__template__` X.y._ means it's compatible with
-`@react-native-community/something` X.y._
+`bs-react-native-fast-image` X.y._ means it's compatible with
+`react-native-fast-image` X.y._
 
 ## Installation
 
 When
-[`@react-native-community/something`](https://github.com/react-native-community/something)
+[`react-native-fast-image`](https://github.com/DylanVann/react-native-fast-image)
 is properly installed & configured by following their installation instructions,
 you can install the bindings:
 
 ```console
-npm install @reason-react-native/__template__
+npm install bs-react-native-fast-image
 # or
-yarn add @reason-react-native/__template__
+yarn add bs-react-native-fast-image
 ```
 
-`@reason-react-native/__template__` should be added to `bs-dependencies` in your
+`bs-react-native-fast-image` should be added to `bs-dependencies` in your
 `bsconfig.json`. Something like
 
 ```diff
@@ -61,7 +32,7 @@ yarn add @reason-react-native/__template__
     "reason-react",
     "reason-react-native",
     // ...
-+    "@reason-react-native/__template__"
++    "bs-react-native-fast-image"
   ],
   //...
 }
@@ -71,13 +42,13 @@ yarn add @reason-react-native/__template__
 
 ### Types
 
-#### `ReactNativeSomething.t`
+#### `ReactNativeFastImage.t`
 
 ...
 
 ### Methods
 
-#### `ReactNativeSomething.method`
+#### `ReactNativeFastImage.method`
 
 ...
 
